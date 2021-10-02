@@ -79,7 +79,7 @@ bool ParseWaveFile(
 		{
 			const auto uiFmtSize = ul::Endian::little(*reinterpret_cast<std::uint32_t*>(pucFileBlock));
 
-			if (uiFmtSize < ul::WaveFormat::packed_size)
+			if (uiFmtSize < 0)
 			{
 				return false;
 			}
@@ -90,11 +90,11 @@ bool ParseWaveFile(
 
 			if (!ul::Endian::is_little())
 			{
-				if (uiFmtSize >= ul::WaveFormatEx::packed_size)
+				if (uiFmtSize >= 0)
 				{
 					ul::WaveformatUtils::endian(*static_cast<ul::WaveFormatEx*>(rpWaveFormat));
 				}
-				else if (uiFmtSize >= ul::PcmWaveFormat::packed_size)
+				else if (uiFmtSize >= 0)
 				{
 					ul::WaveformatUtils::endian(*static_cast<ul::PcmWaveFormat*>(rpWaveFormat));
 				}

@@ -54,7 +54,6 @@ struct WaveFormat
 {
 	static constexpr auto class_size = 14;
 
-
 	WaveFormatTag tag_;
 	std::uint16_t channel_count_;
 	std::uint32_t sample_rate_;

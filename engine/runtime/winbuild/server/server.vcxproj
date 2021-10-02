@@ -80,7 +80,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\..\DirectX\Include;..\..\server\src;..\..\physics\src;..\..\client\src;..\..\sound\src;..\..\kernel\src;..\..\shared\src\sys\win;..\..\kernel\mem\src;..\..\kernel\io\src;..\..\kernel\src\sys\win;..\..\kernel\net\src;..\..\..\sdk\inc;..\..\..\sdk\inc\compat;..\..\shared\src;..\..\model\src;.;..\..\kernel\net;..\..\world\src;..\..\..\..\Libs\stdlith;..\..\..\libs\rezmgr;..\..\..\..\Libs\lith;..\..\lithtemplate;..\..\..\sdk\inc\physics;..\..\..\sdk\inc\state_mgr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ruih\source\playground\ltjs\libs\bibendovsky_spul_lib\include;..\..\..\..\DirectX\Include;..\..\server\src;..\..\physics\src;..\..\client\src;..\..\sound\src;..\..\kernel\src;..\..\shared\src\sys\win;..\..\kernel\mem\src;..\..\kernel\io\src;..\..\kernel\src\sys\win;..\..\kernel\net\src;..\..\..\sdk\inc;..\..\..\sdk\inc\compat;..\..\shared\src;..\..\model\src;.;..\..\kernel\net;..\..\world\src;..\..\..\..\Libs\stdlith;..\..\..\libs\rezmgr;..\..\..\..\Libs\lith;..\..\lithtemplate;..\..\..\sdk\inc\physics;..\..\..\sdk\inc\state_mgr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;_ITERATOR_DEBUG_LEVEL=0;DE_SERVER_COMPILE;DIRECTENGINE_COMPILE;STDLITH_ALLOC_OVERRIDE;LT15_COMPAT;NO_PRAGMA_LIBS;__D3D;__D3DREND;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -116,7 +116,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\DirectX\Include;..\..\server\src;..\..\physics\src;..\..\client\src;..\..\sound\src;..\..\kernel\src;..\..\shared\src\sys\win;..\..\kernel\mem\src;..\..\kernel\io\src;..\..\kernel\src\sys\win;..\..\kernel\net\src;..\..\..\sdk\inc;..\..\..\sdk\inc\compat;..\..\shared\src;..\..\model\src;.;..\..\kernel\net;..\..\world\src;..\..\..\..\Libs\stdlith;..\..\..\libs\rezmgr;..\..\..\..\Libs\lith;..\..\lithtemplate;..\..\..\sdk\inc\physics;..\..\..\sdk\inc\state_mgr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ruih\source\playground\ltjs\libs\bibendovsky_spul_lib\include;..\..\..\..\DirectX\Include;..\..\server\src;..\..\physics\src;..\..\client\src;..\..\sound\src;..\..\kernel\src;..\..\shared\src\sys\win;..\..\kernel\mem\src;..\..\kernel\io\src;..\..\kernel\src\sys\win;..\..\kernel\net\src;..\..\..\sdk\inc;..\..\..\sdk\inc\compat;..\..\shared\src;..\..\model\src;.;..\..\kernel\net;..\..\world\src;..\..\..\..\Libs\stdlith;..\..\..\libs\rezmgr;..\..\..\..\Libs\lith;..\..\lithtemplate;..\..\..\sdk\inc\physics;..\..\..\sdk\inc\state_mgr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_USRDLL;DE_SERVER_COMPILE;DIRECTENGINE_COMPILE;STDLITH_ALLOC_OVERRIDE;LT15_COMPAT;NO_PRAGMA_LIBS;__D3D;__D3DREND;_FINAL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -156,7 +156,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\DirectX\Include;..\..\server\src;..\..\physics\src;..\..\client\src;..\..\sound\src;..\..\kernel\src;..\..\shared\src\sys\win;..\..\kernel\mem\src;..\..\kernel\io\src;..\..\kernel\src\sys\win;..\..\kernel\net\src;..\..\..\sdk\inc;..\..\..\sdk\inc\compat;..\..\shared\src;..\..\model\src;.;..\..\kernel\net;..\..\world\src;..\..\..\..\Libs\stdlith;..\..\..\libs\rezmgr;..\..\..\..\Libs\lith;..\..\lithtemplate;..\..\..\sdk\inc\physics;..\..\..\sdk\inc\state_mgr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ruih\source\playground\ltjs\libs\bibendovsky_spul_lib\include;..\..\..\..\DirectX\Include;..\..\server\src;..\..\physics\src;..\..\client\src;..\..\sound\src;..\..\kernel\src;..\..\shared\src\sys\win;..\..\kernel\mem\src;..\..\kernel\io\src;..\..\kernel\src\sys\win;..\..\kernel\net\src;..\..\..\sdk\inc;..\..\..\sdk\inc\compat;..\..\shared\src;..\..\model\src;.;..\..\kernel\net;..\..\world\src;..\..\..\..\Libs\stdlith;..\..\..\libs\rezmgr;..\..\..\..\Libs\lith;..\..\lithtemplate;..\..\..\sdk\inc\physics;..\..\..\sdk\inc\state_mgr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_USRDLL;DE_SERVER_COMPILE;DIRECTENGINE_COMPILE;STDLITH_ALLOC_OVERRIDE;LT15_COMPAT;NO_PRAGMA_LIBS;__D3D;__D3DREND;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>Sync</ExceptionHandling>

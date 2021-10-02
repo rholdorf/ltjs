@@ -73,7 +73,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\DirectX\Include;..\..\..\..\..\sdk\inc;..\..\..\..\..\..\libs\lith;..\..\;..\..\..\..\shared\src\sys\win;..\..\..\..\kernel\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ruih\source\playground\ltjs\libs\bibendovsky_spul_lib\include;..\..\..\..\..\..\DirectX\Include;..\..\..\..\..\sdk\inc;..\..\..\..\..\..\libs\lith;..\..\;..\..\..\..\shared\src\sys\win;..\..\..\..\kernel\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -110,7 +110,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\DirectX\Include;..\..\..\..\..\sdk\inc;..\..\..\..\..\..\libs\lith;..\..\;..\..\..\..\shared\src\sys\win;..\..\..\..\kernel\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ruih\source\playground\ltjs\libs\bibendovsky_spul_lib\include;..\..\..\..\..\..\DirectX\Include;..\..\..\..\..\sdk\inc;..\..\..\..\..\..\libs\lith;..\..\;..\..\..\..\shared\src\sys\win;..\..\..\..\kernel\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_ITERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\DirectX\Include;..\..\..\..\..\sdk\inc;..\..\..\..\..\..\libs\lith;..\..\;..\..\..\..\shared\src\sys\win;..\..\..\..\kernel\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ruih\source\playground\ltjs\libs\bibendovsky_spul_lib\include;..\..\..\..\..\..\DirectX\Include;..\..\..\..\..\sdk\inc;..\..\..\..\..\..\libs\lith;..\..\;..\..\..\..\shared\src\sys\win;..\..\..\..\kernel\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_FINAL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
